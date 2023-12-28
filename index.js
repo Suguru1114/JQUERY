@@ -2,4 +2,4 @@
 
 $("h1").text("Bye");
 
-$("button").text("Dont click me!!");   
+$("button").html("<em>hey</em>");   
