@@ -1,5 +1,7 @@
 // document.querySelector("h1");  same as $("h1");
 
-$("h1").text("Bye");
+// $("h1").text("Bye");
 
-$("button").html("<em>hey</em>");   
+// $("button").html("<em>hey</em>");   
+
+$("a").attr("href","https://www.yahoo.com");
