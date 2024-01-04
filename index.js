@@ -4,4 +4,8 @@
 
 // $("button").html("<em>hey</em>");   
 
-$("a").attr("href","https://www.yahoo.com");
+// $("a").attr("href","https://www.yahoo.com");
+
+$("h1").click(function() {
+    $("h1").css("color", "green");
+});
