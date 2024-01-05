@@ -15,11 +15,12 @@
 // });
 
 
-$(document).keypress(function(event){
-    $("h1").text(event.key);
-    // console.log(event.key);
+// $(document).keypress(function(event){
+//     $("h1").text(event.key); 
+// });
+
+
+$("h1").on("mouseover", function() {
+    $("h1").css("color", "green"); 
 });
 
-// $(document).keypress(function(event){
-//     console.log(event.key);
-// });
